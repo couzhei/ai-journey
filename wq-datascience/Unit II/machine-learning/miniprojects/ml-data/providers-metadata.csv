@@ -1,0 +1,80 @@
+Variable,Label,Description,Format
+PROVNUM,Federal Provider Number,Federal Provider Number,6 alphanumeric characters
+PROVNAME,Provider Name,Provider Name,text
+ADDRESS,Provider Address,Provider Address,text
+CITY,Provider City,Provider City,text
+STATE,Provider State,Provider State,2-character postal abbreviation
+ZIP,Provider Zip Code,Provider Zip Code,5-digit zip code
+PHONE,Provider Phone Number,Provider Phone Number,10 digit phone number
+COUNTY_SSA,Provider SSA County,SSA county code,3-digit SSA code
+COUNTY_NAME,Provider County Name,Provider County Name,text
+OWNERSHIP,Ownership Type,Nature of organization that operates a provider of services ,text
+BEDCERT,Number of Certified Beds,Number of Federally Certified Beds,integer
+RESTOT,Average Number of Residents per Day,Average number of residents based on MDS daily census,number with one decimal place 000.0
+CERTIFICATION,Provider Type,Category which is most indicative of provider,text
+INHOSP,Provider Resides in Hospital,Facility Resides in Hospital Indicator,Y/N
+LBN,Legal Business Name,Legal Business Name,text
+PARTICIPATION_DATE,Date First Approved to Provide Medicare and Medicaid services,Date First Approved to Provide Medicare/Medicaid Services,date
+CCRC_FACIL,Continuing Care Retirement Community,Continuing Care Retirement Community Indicator,Y/N
+SFF,Special Focus Facility,Special Focus Facility Indicator,Y/N
+OLDSURVEY,Most Recent Health Inspection More Than 2 Years Ago,Most recent survey occurred more than 2 years ago indicator,Y/N
+CHOW_LAST_12MOS,Provider Changed Ownership in Last 12 Months,Facility Changed Ownership in Last 12 Months Indicator,Y/N
+resfamcouncil,With a Resident and Family Council,With a Resident and Family Council,"Resident, Family, Both, None"
+sprinkler_status,Automatic Sprinkler Systems in All Required Areas,Automatic Sprinkler Systems in All Required Areas,"Yes, Partial, No, Data Not Available"
+overall_rating,Overall Rating,Overall Rating,"one-digit, values 1-5"
+overall_rating_fn,Overall Rating Footnote,Overall Rating Footnote,blank or text  
+survey_rating,Health Inspection Rating,Health Inspection Rating,"one-digit, values 1-5"
+survey_rating_fn,Health Inspection Rating Footnote,Health Inspection Rating Footnote,blank or text  
+quality_rating,QM Rating,QM Rating,"one-digit, values 1-5"
+quality_rating_fn,QM Rating Footnote,QM Rating Footnote,blank or text  
+staffing_rating,Staffing Rating,Staffing Rating,"one-digit, values 1-5"
+staffing_rating_fn,Staffing Rating Footnote,Staffing Rating Footnote,blank or text  
+RN_staffing_rating,RN Staffing Rating,RN Staffing Rating,"one-digit, values 1-5"
+rn_staffing_rating_fn,RN Staffing Rating Footnote,RN Staffing Rating Footnote,blank or text  
+STAFFING_FLAG,Reported Staffing Footnote,Reported Staffing Footnote,blank or text (Data Not Available)
+PT_STAFFING_FLAG,Physical Therapist Staffing Footnote,Physical Therapy Staffing Footnote,blank or text (Data Not Available)
+AIDHRD,Reported Nurse Aide Staffing Hours per Resident per Day,Reported Nurse Aide Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+VOCHRD,Reported LPN Staffing Hours per Resident per Day,Reported LPN Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+RNHRD,Reported RN Staffing Hours per Resident per Day,Reported RN Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+TOTLICHRD,Reported Licensed Staffing Hours per Resident per Day,Reported Licensed Staffing - Hours per Resident per Day (RN + LPN),"real number, up to 5 decimal places"
+TOTHRD,Reported Total Nurse Staffing Hours per Resident per Day,Reported Total Nurse Staffing - Hours per Resident per Day (Aide+LPN+RN),"real number, up to 5 decimal places"
+PTHRD,Reported Physical Therapist Staffing Hours per Resident Per Day,Reported Physical Therapy Staffing - Hours per Resident Per Day,"real number, up to 5 decimal places"
+exp_aide,Expected Nurse Aide Staffing Hours per Resident per Day,Expected Nurse Aide Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+exp_lpn,Expected LPN Staffing Hours per Resident per Day,Expected LPN Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+exp_rn,Expected RN Staffing Hours per Resident per Day,Expected RN Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+exp_total,Expected Total Nurse Staffing Hours per Resident per Day,Expected Total Nurse Staffing - Hours per Resident per Day (Aide+LPN+RN),"real number, up to 5 decimal places"
+adj_aide,Adjusted Nurse Aide Staffing Hours per Resident per Day,Adjusted Nurse Aide Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+adj_lpn,Adjusted LPN Staffing Hours per Resident per Day,Adjusted LPN Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+adj_rn,Adjusted RN Staffing Hours per Resident per Day,Adjusted RN Staffing - Hours per Resident per Day,"real number, up to 5 decimal places"
+adj_total,Adjusted Total Nurse Staffing Hours per Resident per Day,Adjusted Total Nurse Staffing - Hours per Resident per Day (Aide+LPN+RN),"real number, up to 5 decimal places"
+R_SRVY_DT_F,Health Survey Date Under New Process,Date of most recent health inspection occurring on or after 11/28/2017,date
+R_TOT_HTH_DFCNCY,Number of Health Deficiencies on Survey Under New Process,Number of health deficiency citations on most recent health inspection occurring on or after 11/28/2017,integer
+R_HTH_SVRTY,Severity of Most Severe Deficiency Cited Under New Process,Severity of most severe deficiency cited on health inspection occurring on or after 11/28/2017,text
+R_HTH_SCOPE,Residents Affected or Scope of Broadest Scope Deficiency Cited Under New Process,Scope of deficiency with greatest scope cited on health inspection occurring on or after 11/28/2017,text
+PREV_SRVY_DT_F,Date of Previous Standard Health Inspection,Date of most recent health inspection occurring before 11/28/2017,date
+PREV_TOT_HTH_DFCNCY,Number of Health Deficiencies on Previous Standard Health Inspection,Number of health deficiency citations on most recent health inspection occurring before 11/28/2017,integer
+CYCLE_1_SURVEY_DATE,Rating cycle 1 Standard Survey Health Date,"Date of Rating cycle 1 Standard Health Survey Date, which is the most recent health inspection occurring before 11/28/2017 - See CMS 5-Star Techinical Users' Guide for description of Rating cycles and Health Inspection Scoring",date
+cycle_1_defs,Rating cycle 1 Total Number of Health Deficiencies,Total Number of Health Deficiencies in Rating cycle 1,integer
+cycle_1_nfromdefs,Rating cycle 1 Number of Standard Health Deficiencies,Number of Health Deficiencies from the Standard Survey During Rating cycle 1,integer
+cycle_1_nfromcomp,Rating cycle 1 Number of Complaint Health Deficiencies,Number of Health Deficiencies from Complaint Surveys during Rating cycle 1 for complaints (11/28/2016 - 11/27/2017),integer
+cycle_1_defs_score,Rating cycle 1 Health Deficiency Score,Rating cycle 1 - Health Deficiency Score,integer
+cycle_1_numrevis,Rating cycle 1 Number of Health Revisits,Number of Health Survey Repeat-Revisits for Rating cycle 1,integer
+cycle_1_revisit_score,Rating cycle 1 Health Revisit Score,Points Associated with Health Survey Repeat Revisits for Rating cycle 1,integer
+cycle_1_total_score,Rating cycle 1 Total Health Score,Rating cycle 1 - Total Health Inspection Score,integer
+cycle_2_survey_date,Rating cycle 2 Standard Health Survey Date,Date of Rating cycle 2 Standard Health Survey Date,date
+cycle_2_defs,Rating cycle 2 Total Number of Health Deficiencies,Total Number of Health Deficiencies in Rating cycle 2 - See CMS 5-Star Techinical Users' Guide for description of Rating cycles,integer
+cycle_2_nfromdefs,Rating cycle 2 Number of Standard Health Deficiencies,Number of Health Deficiencies from the Standard Survey during Rating cycle 2,integer
+cycle_2_nfromcomp,Rating cycle 2 Number of Complaint Health Deficiencies,Number of Health Deficiencies from Complaint Surveys during Rating cycle 2 for complaints (11/28/2015 - 11/27/2016),integer
+cycle_2_defs_score,Rating cycle 2 Health Deficiency Score,Rating cycle 2 - Health Deficiency Score,integer
+cycle_2_numrevis,Rating cycle 2 Number of Health Revisits,Number of Health Survey Repeat-Revisits for Rating cycle 2,integer
+cycle_2_revisit_score,Rating cycle 2 Health Revisit Score,Points Associated with Health Survey Repeat Revisits for Rating cycle 2,integer
+cycle_2_total_score,Rating cycle 2 Total Health Score,Rating cycle 2 - Total Health Inspection Score,integer
+WEIGHTED_ALL_CYCLES_SCORE,Total Weighted Health Survey Score,Total Weighted Health Survey Score for two cycles - See CMS 5-Star Techical Users' Guide for detailed explanation,"real number, up to 3 decimal places"
+incident_cnt,Number of Facility Reported Incidents,Number of Facility-Reported Incidents,integer
+cmplnt_cnt,Number of Substantiated Complaints,Number of Substantiated Complaints,integer
+FINE_CNT,Number of Fines,Number of Fines,integer
+FINE_TOT,Total Amount of Fines in Dollars,Total Amount of Fines in Dollars,integer
+PAYDEN_CNT,Number of Payment Denials,Number of Payment Denials,integer
+TOT_PENLTY_CNT,Total Number of Penalties,Total Number of Penalties,integer
+LOCATION,Location,Location of facility,only on displayed version of file; renders as latitude and longitude
+FILEDATE,Processing Date,Date the data were retrieved,date
