@@ -6,7 +6,7 @@ website = "https://web.stanford.edu/~jurafsky/slp3/"
 
 hault = 0
 
-for chapter in range(2, 50):
+for chapter in list(range(2, 30)) + list("ABCDEFG"):
     pdf_page = f"https://web.stanford.edu/~jurafsky/slp3/{chapter}.pdf"
 
     pdf = []
