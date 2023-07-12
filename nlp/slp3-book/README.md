@@ -51,12 +51,12 @@ If you have any suggestions or ideas for improving this script, please feel free
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under ...
 
 Citations:
-[1] https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f
-[2] https://dbader.org/blog/write-a-great-readme-for-your-github-project
-[3] https://techbit.ca/2022/12/downloading-pdf-files-using-python/
-[4] https://github.com/YinlinHu/pypdfium
-[5] https://github.com/pypdfium2-team
-[6] https://pydigger.com/pypi/pypdfium2
+[1] https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f<br>
+[2] https://dbader.org/blog/write-a-great-readme-for-your-github-project<br>
+[3] https://techbit.ca/2022/12/downloading-pdf-files-using-python/<br>
+[4] https://github.com/YinlinHu/pypdfium<br>
+[5] https://github.com/pypdfium2-team<br>
+[6] https://pydigger.com/pypi/pypdfium2<br>
