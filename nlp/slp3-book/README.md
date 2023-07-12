@@ -53,7 +53,7 @@ If you have any suggestions or ideas for improving this script, please feel free
 
 This project is licensed under ...
 
-Citations:
+Citations:<br>
 [1] https://towardsdatascience.com/pdf-preprocessing-with-python-19829752af9f<br>
 [2] https://dbader.org/blog/write-a-great-readme-for-your-github-project<br>
 [3] https://techbit.ca/2022/12/downloading-pdf-files-using-python/<br>
