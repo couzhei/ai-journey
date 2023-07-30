@@ -42,7 +42,7 @@ Here are some of the features that we plan to add in the future:
 
 - Developing a mechanism for checking the downloaded and to be downloaded PDFs
 - Renaming PDFs properly so they can be addressed well
-- Using AI and properly named chapters to merge PDFs while creating sections and subsections
+- Using an automatic way of naming chapters (creating sections and subsections)
 - Stop making hard-coded scripts and use some automatic approach
 
 ## Contributing
