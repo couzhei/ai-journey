@@ -9,7 +9,7 @@ This is a Python script that automatically downloads the fully updated version o
 - Future features to be added via checklist:
   - [ ] Developing a mechanism for comparing the-already-downloaded and to-be-downloaded PDFs
   - [ ] Renaming PDFs properly so they can be addressed well
-  - [ ] Using AI and properly named chapters to merge PDFs while creating sections and subsections
+  - [ ] Using a automatic way to properly nameing chapters to merge PDFs with additionaly creating relevant sections and subsections
   - [ ] Stop making hard-coded scripts and use some automatic approach
 
 ## Installation
