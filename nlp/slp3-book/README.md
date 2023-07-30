@@ -23,7 +23,7 @@ git clone https://github.com/username/book-updater.git
 2. Install the required dependencies:
 
 ```
-pip install -r beautifulsoup4 pypdfium2
+pip install -r beautifulsoup4 pypdfium2 pikepdf requests
 ```
 
 ## Usage
