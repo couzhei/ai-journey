@@ -4,3 +4,6 @@
 [submodule "stanford-cs221"]
 	path = stanford-cs221
 	url = https://github.com/couzhei/stanford-cs221.git
+[submodule "graph-theory-and-algorithms"]
+	path = graph-theory-and-algorithms
+	url = https://github.com/couzhei/graph-theory-and-algorithms.git
