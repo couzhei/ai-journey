@@ -1,3 +1,6 @@
 [submodule "networking"]
 	path = networking
 	url = https://github.com/couzhei/networking.git
+[submodule "stanford-cs221"]
+	path = stanford-cs221
+	url = https://github.com/couzhei/stanford-cs221.git
