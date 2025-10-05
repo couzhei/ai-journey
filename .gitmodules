@@ -1,0 +1,3 @@
+[submodule "networking"]
+	path = networking
+	url = https://github.com/couzhei/networking.git
