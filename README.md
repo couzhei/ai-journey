@@ -34,3 +34,18 @@ This repository captures hands-on work, notes, and projects across multiple doma
 - **Wisconsin Data Science** (`wq-datascience`) - Additional coursework
 
 ## List of Contents
+
+```
+ai-journey/
+├── classical-ml/              # Classical machine learning fundamentals
+├── deep.ai/                   # Deep learning coursework and projects
+├── stanford-cs221/            # Stanford AI course materials
+├── ibm-data-science/          # IBM Data Science Professional Certificate
+├── applied-data-science/      # Applied data science projects
+├── nlp/                       # Natural language processing
+├── mlops/                     # Machine learning operations
+├── graph-theory-and-algorithms/  # Graph theory and algorithms (submodule)
+├── networking/                # Networking fundamentals (submodule)
+├── wq-datascience/            # Wisconsin Data Science coursework
+└── datasets/                  # Practice datasets
+```
