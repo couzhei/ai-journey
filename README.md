@@ -31,7 +31,6 @@ This repository captures hands-on work, notes, and projects across multiple doma
 
 ### Resources
 - **Datasets** - Practice data for experiments
-- **Wisconsin Data Science** (`wq-datascience`) - Additional coursework
 
 ## List of Contents
 
@@ -46,6 +45,5 @@ ai-journey/
 ├── mlops/                     # Machine learning operations
 ├── graph-theory-and-algorithms/  # Graph theory and algorithms (submodule)
 ├── networking/                # Networking fundamentals (submodule)
-├── wq-datascience/            # Wisconsin Data Science coursework
 └── datasets/                  # Practice datasets
 ```
